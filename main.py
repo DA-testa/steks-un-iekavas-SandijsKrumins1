@@ -41,7 +41,7 @@ def main():
         file = open(filename)
         text = read(file)
         mismatch = find_mismatch(text)
-    # Printing answer, write your code here
+    # Printing answer, write your code here 
     print(mismatch)
 
 
