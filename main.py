@@ -36,6 +36,11 @@ def main():
     if "I" in mode:
         text = input()
         mismatch = find_mismatch(text)
+    else:
+        filename= input()
+        file = open(filename)
+        text = read(file)
+        mismatch = find_mismatch(text)
     # Printing answer, write your code here
     print(mismatch)
 
