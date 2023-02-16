@@ -38,8 +38,8 @@ def main():
         mismatch = find_mismatch(text)
     else:
         filename= input()
-        file = open(filename)
-        text = read(file)
+        file = open("{filename}", 'r')
+        text = file.read()
         mismatch = find_mismatch(text)
     # Printing answer, write your code here 
     print(mismatch)
