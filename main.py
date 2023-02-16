@@ -36,9 +36,6 @@ def main():
     if "I" in mode:
         text = input()
         mismatch = find_mismatch(text)
-    else:
-        text = input()
-        mismatch = find_mismatch(text)
     # Printing answer, write your code here
     print(mismatch)
 
