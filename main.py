@@ -38,7 +38,7 @@ def main():
         mismatch = find_mismatch(text)
     else:
         filename= input()
-        file = open("{filename}", 'r')
+        file = open(filename, 'r')
         text = file.read()
         mismatch = find_mismatch(text)
     # Printing answer, write your code here 
